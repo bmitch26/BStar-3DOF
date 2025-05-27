@@ -23,8 +23,10 @@ This setup mirrors industry practices for distributed embedded systems, providin
 |  EKF + Control      |                         |  FDIR + Telemetry    |
 |  UDP now, CAN later |                         |  (C++ Linux app)     |
 +---------------------+                         +----------------------+
+</pre>
 
 ## Final Planned Architecture Diagram with 2nd STM32:
+<pre>
 +-------------------+                  +-----------------------------+
 |                   |                  |                             |
 |  Sim Harness (PC) |                  |       Ground UI (PC)        |

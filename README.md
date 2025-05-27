@@ -7,6 +7,7 @@ It consists of Node A running on an STM32 Nucleo board, responsible for real-tim
 This setup mirrors industry practices for distributed embedded systems, providing a testbed for control algorithms, fault management, and system integration.
 
 ## Initial Architecture Diagram:
+<pre>
 +-------------------+                  +-----------------------------+
 |                   |                  |                             |
 |  Sim Harness (PC) |                  |       Ground UI (PC)        |
@@ -38,3 +39,4 @@ This setup mirrors industry practices for distributed embedded systems, providin
 |   Node A (STM32)  |                         |   Node B (STM32)  |
 |  EKF + Control    |                         |  FDIR + Telemetry |
 +-------------------+                         +-------------------+
+</pre>

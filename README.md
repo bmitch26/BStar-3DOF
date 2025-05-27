@@ -42,3 +42,10 @@ This setup mirrors industry practices for distributed embedded systems, providin
 |  EKF + Control    |                         |  FDIR + Telemetry |
 +-------------------+                         +-------------------+
 </pre>
+
+## Phase 1: Core UDP Communication and Data Flow MVP
+Goal: Build a minimal working loop where:
+- Sim Harness generates and sends sensor data to STM32 (Node A)
+- Node A processes it and sends control commands to Node B (PC Sim)
+- Node B logs/prints the telemetry
+- Ground UI displays telemetry data
